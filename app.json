@@ -1,0 +1,6 @@
+{
+  "name": "API Inmobiliaria Backend",
+  "description": "Backend para sistema inmobiliario",
+  "repository": "https://github.com/RicardoChowT/api-inmobiliaria-backend",
+  "keywords": ["node", "express", "api"]
+}
