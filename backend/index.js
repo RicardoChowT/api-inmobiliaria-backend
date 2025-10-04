@@ -13,11 +13,13 @@ const port = process.env.PORT || 3001;
 if (process.env.NODE_ENV === "production") {
   // Configuración para PRODUCCIÓN
   const allowedOrigins = [
+    "http://change4canton.com",
+    "https://change4canton.com",
+    "http://www.change4canton.com",
+    "https://www.change4canton.com",
+    "http://localhost:3000",
     "http://127.0.0.1:5500",
-    "http://localhost:3001",
-    "https://change4canton.com", // REEMPLAZA con tu dominio real
-    "https://www.change4canton.com", // REEMPLAZA con tu dominio real
-    "http://apiinmobiliaria-frontend-eyohvu-75e85e-72-60-45-226.traefik.me",
+    "http://change4canton.com:3001", // por si acaso
   ];
 
   app.use(
